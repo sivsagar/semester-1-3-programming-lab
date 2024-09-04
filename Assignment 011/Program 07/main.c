@@ -5,7 +5,6 @@ terms n will be given by the user.
 int main()
 {
    
-
     return 0;
 }
 

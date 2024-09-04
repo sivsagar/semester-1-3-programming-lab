@@ -1,5 +1,5 @@
 #include<stdio.h>
-/* Take a positive number(say n) from the user. Print from .5 to n
+/* a) Take a positive number(say n) from the user. Print from .5 to n
 in increments of 0.25
 */
 int main() {

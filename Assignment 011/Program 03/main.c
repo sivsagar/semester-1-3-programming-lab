@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* Take any positive number from the user and print 
+/* c) Take any positive number from the user and print 
 a)the sum of its digits
 b)the number of its digit  
 */

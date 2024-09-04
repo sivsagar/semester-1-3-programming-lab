@@ -1,15 +1,39 @@
-#include <stdio.h>
-/* g) Write a program to find the fibonaccci series up to a number of 
-terms n will be given by the user.  
+/*
+g) Find all 3 digit Armstrong numbers.
 */
-int main()
-{
-   
+
+#include <math.h>
+#include <stdio.h>
+int main() {
+    printf("All 3 digit Armstrong numbers : \n");
+    for (int n = 100; n <= 999; n++) {
+        int num_digit = 0;
+
+        int temp = n;
+        while (temp > 0) {
+            num_digit++;
+            temp = temp / 10;
+        }
+
+        temp = n;
+        int sum = 0;
+        while (temp > 0) {
+            int d = temp % 10;
+            sum = sum + pow(d, num_digit);
+            temp = temp / 10;
+        }
+
+        if (sum == n) {
+            printf("%d ", n);
+        }
+    }
+    printf("\n");
+
     return 0;
 }
 
-/* OUTPUT
-  Enter Positive integer : 4324
-  Sum of digits = 13
-  Number of digits = 4
+/*
+-----------Output------------
+All 3 digit Armstrong numbers :
+153 370 371 407
 */

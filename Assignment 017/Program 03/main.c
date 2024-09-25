@@ -23,7 +23,7 @@ int main() {
     int num;
     printf("Enter a number: ");
     scanf("%d", &num);
-    
+
     if (isArmstrong(num)) {
         printf("%d is an Armstrong number.\n", num);
     } else {
@@ -32,3 +32,8 @@ int main() {
 
     return 0;
 }
+
+/*    OutPut   
+  Enter a number: 2
+2 is an Armstrong number.
+  */

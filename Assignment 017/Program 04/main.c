@@ -12,7 +12,7 @@ int isPrime(int n) {
     return 1;
 }
 
-int checkSumOfTwoPrimes(int n) {
+int SumOfTwoPrimes(int n) {
     for (int i = 2; i <= n / 2; i++) {
         if (isPrime(i) && isPrime(n - i)) {
             printf("%d can be expressed as the sum of %d and %d.\n", n, i, n - i);
@@ -27,7 +27,7 @@ int main() {
     int n;
     printf("Enter a number: ");
     scanf("%d", &n);
-    checkSumOfTwoPrimes(n);
+    SumOfTwoPrimes(n);
     return 0;
 }
 

@@ -1,0 +1,3 @@
+/*Write a program in C where a function is defined
+which takes two positive integers as input and
+returns the GCD of the two given integers.*/

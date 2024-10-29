@@ -59,7 +59,7 @@ Price: 1800000
 Enter details for car 4:
 Company: Skoada
 Model: Salavia
-Price:     1200000
+Price:200000
 
 Car with the lowest price:
 Company: Skoada

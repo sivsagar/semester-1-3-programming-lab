@@ -11,3 +11,12 @@ int main () {
     printf("\n");
     return 0;
 }
+
+
+/*OUTPUT
+Array in reversed order:
+5 
+4 
+3 
+2 
+1 */

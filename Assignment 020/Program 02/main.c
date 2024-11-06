@@ -14,7 +14,7 @@ int countDuplicates(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 2, 3, 4, 5, 6, 1};
+    int arr[] = {1, 2, 3, 2, 3, 4, 5, 6, 1,5,5};
     int size = sizeof(arr) / sizeof(arr[0]);
     int duplicates = countDuplicates(arr, size);
     printf("Total number of duplicate elements: %d\n", duplicates);

@@ -20,3 +20,20 @@ int main() {
 
     return 0;
 }
+
+
+/*-----------------OUTPUT------------------
+
+Integer array values and addresses:
+Value: 1, Address: 0x7fffffffdd60
+Value: 2, Address: 0x7fffffffdd64
+Value: 3, Address: 0x7fffffffdd68
+Value: 4, Address: 0x7fffffffdd6c
+Value: 5, Address: 0x7fffffffdd70
+
+Float array values and addresses:
+Value: 1.1, Address: 0x7fffffffdd40
+Value: 2.2, Address: 0x7fffffffdd44
+Value: 3.3, Address: 0x7fffffffdd48
+Value: 4.4, Address: 0x7fffffffdd4c
+Value: 5.5, Address: 0x7fffffffdd50*/

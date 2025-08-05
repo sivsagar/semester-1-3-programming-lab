@@ -9,7 +9,7 @@ int main() {
     int result[2][2];
     int i, j, k;
 
-    // Matrix multiplication using pointers
+    
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
             *(*(result + i) + j) = 0;
@@ -19,7 +19,7 @@ int main() {
         }
     }
 
-    // Print result
+    
     printf("Resultant matrix:\n");
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {

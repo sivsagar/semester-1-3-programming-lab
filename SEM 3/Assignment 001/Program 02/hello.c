@@ -3,7 +3,7 @@
 /* To find the roots of a quadratic equation ax^2 + bx + c = 0 */
 
 int main() {
-    double a, b, c, discriminant, root1, root2, realPart, imagPart;
+    double a, b, c, discriminant, root1, root2, RealPart, ImagPart;
     printf("Enter coefficients a, b and c: ");
     scanf("%lf %lf %lf", &a, &b, &c);
 
@@ -20,11 +20,11 @@ int main() {
         printf("Roots are real and same.\n");
         printf("Root 1 = Root 2 = %.2lf\n", root1);
     } else {
-        realPart = -b / (2 * a);
-        imagPart = sqrt(-discriminant) / (2 * a);
+        RealPart = -b / (2 * a);
+        ImagPart = sqrt(-discriminant) / (2 * a);
         printf("Roots are complex and different.\n");
-        printf("Root 1 = %.2lf + %.2lfi\n", realPart, imagPart);
-        printf("Root 2 = %.2lf - %.2lfi\n", realPart, imagPart);
+        printf("Root 1 = %.2lf + %.2lfi\n", RealPart, ImagPart);
+        printf("Root 2 = %.2lf - %.2lfi\n", RealPart, ImagPart);
     }
     return 0;
 }

@@ -5,7 +5,7 @@ to find whether a given number is armstrong number or not
 */
 int main() {
     int num, originalNum, remainder, result = 0, n = 0;
-    printf("Enter an integer: ");
+    printf("Enter an Number: ");
     scanf("%d", &num);
 
     originalNum = num;
@@ -27,9 +27,14 @@ int main() {
     }
 
     if (result == num)
-        printf("%d is an Armstrong number.\n", num);
+        printf("%d is an armstrong number.\n", num);
     else
-        printf("%d is not an Armstrong number.\n", num);
+        printf("%d is not an armstrong number.\n", num);
 
     return 0;
 }
+
+/*
+Enter an Number: 153
+153 is an armstrong number.
+*/

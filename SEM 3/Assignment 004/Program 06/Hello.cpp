@@ -1,0 +1,3 @@
+/*Redo the above program using a class called factorial and appropriate member 
+functions.
+*/

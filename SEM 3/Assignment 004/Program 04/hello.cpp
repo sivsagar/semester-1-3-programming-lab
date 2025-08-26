@@ -1,0 +1,2 @@
+/*Redo the above program using a class called prime and appropriate member functions.
+*/

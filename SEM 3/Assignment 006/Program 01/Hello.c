@@ -1,1 +1,0 @@
-/*Use friend function to calculate the average */

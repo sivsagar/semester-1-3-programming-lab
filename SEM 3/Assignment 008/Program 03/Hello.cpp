@@ -7,6 +7,7 @@
  Sample output:
  Point 1: (3, 4)
  Point 2: (3, 4)
+ @
 */
 
 #include <iostream>

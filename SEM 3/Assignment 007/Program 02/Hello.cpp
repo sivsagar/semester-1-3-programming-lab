@@ -1,1 +1,0 @@
-/*2. Create a base class Shape. Derive three classes: Circle, Rectangle, and Triangle. Each derived class should have its own area() function. Input dimensions and calculate area of each shape.*/
